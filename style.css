@@ -703,7 +703,8 @@ input:required {
       height: 750px; } }
   @media only screen and (max-width: 767px) {
     .single-welcome-slide {
-      height: 600px; } }
+      height: 520px;
+     } }
   .single-welcome-slide .welcome-text {
     position: relative;
     z-index: 1; }
@@ -1696,3 +1697,13 @@ input:required {
     }
 
 /*# sourceMappingURL=style.css.map */
+/* @media only screen and (max-width: 700px){
+  .on1{
+     display: none;
+  }
+}
+@media only screen and (min-width: 700px) and (max-width: 2700px){
+  .ok2{
+     display: none;
+  }
+} */
