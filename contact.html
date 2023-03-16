@@ -451,7 +451,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         $("#submit-form").submit((e)=>{
             e.preventDefault()
             $.ajax({
-                url:"https://script.google.com/macros/s/AKfycbwtG3AZuRKkt2jE86EW18aFR04DjYnEHka-TTngtZ0vx2LDPNnZO053ZofeyhPVcywJBg/exec",
+                url:"https://script.google.com/macros/s/AKfycby-fdLpINbQpJy0S1s1VPFcwt3m07tiE7ED9_OYMlIm-6gyhBhL5mQZPupXMvErSCSlyg/exec",
+                
                 data:$("#submit-form").serialize(),
                 method:"post",
                 success:function (response){
